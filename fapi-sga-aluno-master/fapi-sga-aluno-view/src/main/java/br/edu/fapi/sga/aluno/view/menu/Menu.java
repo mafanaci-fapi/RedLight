@@ -31,7 +31,7 @@ public class Menu {
             switch (opcao) {
                 case 1:
                     Cadastro cadastro = new Cadastro();
-                    cadastro.cadastrarAluno(alunController, scanner, aluno);
+                    cadastro.cadastrarAluno(alunoController, scanner, aluno);
                     break;
                 case 2:
                     Exclusao exclusao = new Exclusao();
