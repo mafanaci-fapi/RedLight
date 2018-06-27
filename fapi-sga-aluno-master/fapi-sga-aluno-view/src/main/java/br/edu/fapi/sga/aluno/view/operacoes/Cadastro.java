@@ -32,10 +32,20 @@ public class Cadastro {
                 }while (defCodigo == 0);
                 System.out.print("Digite o nome do aluno: ");
                 aluno.setNome(scanner.nextLine());
-                System.out.print("Digite o CPF do aviso: ");
+                System.out.print("Digite o CPF do aluno: ");
                 aluno.setCPF(scanner.nextLine());
+                System.out.print("Digite o RG do aluno: ");
+                aluno.setRG(scanner.nextLine());
+                System.out.print("Digite o telefone do aluno: ");
+                aluno.setTelefone(scanner.nextLine());
+                System.out.print("Digite o e-mail do aluno: ");
+                aluno.setEmail(scanner.nextLine());
+                System.out.print("Digite o endereço do aluno: ");
+                aluno.setEndereco(scanner.nextLine());
+                System.out.print("Digite o id do aluno: ");
+                aluno.setId(scanner.nextLine());
                 
-                //Verificar quais serão os outros campos do cadastro de aluno
+                
 
                 alunoController.cadastrarAluno(aluno);
 

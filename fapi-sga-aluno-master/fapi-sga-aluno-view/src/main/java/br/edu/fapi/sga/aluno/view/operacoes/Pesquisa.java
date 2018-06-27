@@ -37,7 +37,13 @@ public class Pesquisa {
                     System.out.println("");
                     System.out.println("Código: "+aluno.getCodigo());
                     System.out.println("Nome: "+aluno.getNome());
-                    System.out.println("CPF: "+aluno.getCPF());
+                    System.out.println("CPF: "+aluno.getCpf());
+                    System.out.println("Rg: "+aluno.getRg());
+                    System.out.println("Telefone: "+aluno.getTelefone());
+                    System.out.println("Email: "+aluno.getEmail());
+                    System.out.println("Endereço: "+aluno.getEndereco());
+                    System.out.println("Id: "+aluno.getId());
+                    
                     System.out.println("");
                     
                     // Verificar os outros campos referentes ao cadastro de aluno

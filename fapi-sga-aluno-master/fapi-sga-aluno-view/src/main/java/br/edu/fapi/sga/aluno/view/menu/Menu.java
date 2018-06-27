@@ -54,7 +54,7 @@ public class Menu {
                     voltar = 0;
                     break;
                 default:
-                    System.out.println("OpÃ§Ã£o invÃ¡lida.");
+                    System.out.println("Opção inválida.");
             }
         } while (voltar != 0);
     }

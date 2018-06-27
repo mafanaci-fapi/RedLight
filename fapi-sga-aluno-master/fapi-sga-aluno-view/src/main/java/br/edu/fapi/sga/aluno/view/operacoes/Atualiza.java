@@ -39,9 +39,17 @@ public class Atualiza {
                     aluno.setNome(scanner.nextLine());
                     System.out.print("Digite o novo CPF do aluno : ");
                     cpf.setCPF(scanner.nextLine());
-                    
-                    //verificar os outros campos do cadastro de aluno >> Ronei
-                    
+                    System.out.print("Digite o novo RG do aluno : ");
+                    cpf.setRg(scanner.nextLine());
+                    System.out.print("Digite o novo telefone do aluno : ");
+                    cpf.setTelefone(scanner.nextLine());
+                    System.out.print("Digite o novo e-mail do aluno : ");
+                    cpf.setEmail(scanner.nextLine());
+                    System.out.print("Digite o novo endereço do aluno : ");
+                    cpf.setEndereco(scanner.nextLine());
+                    System.out.print("Digite o novo Id do aluno : ");
+                    cpf.setId(scanner.nextLine());
+                                        
                     alunoController.cadastrarAluno(aluno);
 
                     System.out.println("");                       
