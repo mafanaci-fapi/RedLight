@@ -1,10 +1,14 @@
 package br.edu.fapi.sga.turma.view;
 
+import java.util.List;
 import java.util.Scanner;
+
+import br.edu.fapi.sga.model.turma.Turma;
+import br.edu.fapi.sga.turma.controller.TurmaController;
 
 public class MenuTurma {
 
-	public void menu() {
+	public void menu(TurmaController turmaController) {
 		int opcao = -1;
 		while (opcao != 0) {
 			System.out.println("1 - Cadastrar sala.");
@@ -14,21 +18,34 @@ public class MenuTurma {
 			System.out.println("5 - Excluir sala.");
 			Scanner scanner = new Scanner(System.in);
 			opcao = scanner.nextInt();
-			// Sala sala = new Sala();
+			
 		}
-
-		if (opcao == 1) {
-			// sala.listarSala();
-		} else if (opcao == 2) {
-			// sala.atualizarSala();
-		} else if (opcao == 3) {
-			// sala.listarSala();
-		} else if (opcao == 4) {
-			// sala.pesquisarSala();
-		} else if (opcao == 5) {
-			// sala.excluirSala();
-		} else {
-			System.out.println("Op√ß√£o inv√°lida.");
+		
+					
+		Turma turma = new Turma();
+		
+		switch(opcao) {
+		case 1 :
+			turmaController.cadrastarTurma(turma);
+			
+			break;
+		case 2 :
+			turmaController.atualizarTurma(turma);
+			
+			break;
+		case 3:
+			turmaController.listarTurma(turma);
+			break;
+		case 4 :
+			turmaController.pesquisarTurma(turma);
+			break;
+		case 5:
+			turmaController.excluirTurma(turma);
+		break;
+		
+		default:
+			System.out.println("OpÁ„o invalida.");
+		
 		}
 	}
 }
