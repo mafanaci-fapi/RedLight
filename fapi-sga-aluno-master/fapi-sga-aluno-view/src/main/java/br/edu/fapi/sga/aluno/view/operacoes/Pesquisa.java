@@ -46,7 +46,7 @@ public class Pesquisa {
                     
                     System.out.println("");
                     
-                    // Verificar os outros campos referentes ao cadastro de aluno
+                    
                 }else{
                     System.out.println("");
                     System.out.println("Aluno não encontrado.");

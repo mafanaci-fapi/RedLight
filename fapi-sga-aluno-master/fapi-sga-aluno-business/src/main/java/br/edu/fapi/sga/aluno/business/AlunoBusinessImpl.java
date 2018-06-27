@@ -19,7 +19,7 @@ public class AlunoBusinessImpl implements AlunoBusiness{
     }
 
     @Override
-    public int cadastrarAluno(Aluno alun) {
+    public int cadastrarAluno(Aluno aluno) {
 
         if(aluno != null){
             return alunoDAO.create(aluno);

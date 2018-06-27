@@ -33,9 +33,9 @@ public class Cadastro {
                 System.out.print("Digite o nome do aluno: ");
                 aluno.setNome(scanner.nextLine());
                 System.out.print("Digite o CPF do aluno: ");
-                aluno.setCPF(scanner.nextLine());
+                aluno.setCpf(scanner.nextLine());
                 System.out.print("Digite o RG do aluno: ");
-                aluno.setRG(scanner.nextLine());
+                aluno.setRg(scanner.nextLine());
                 System.out.print("Digite o telefone do aluno: ");
                 aluno.setTelefone(scanner.nextLine());
                 System.out.print("Digite o e-mail do aluno: ");

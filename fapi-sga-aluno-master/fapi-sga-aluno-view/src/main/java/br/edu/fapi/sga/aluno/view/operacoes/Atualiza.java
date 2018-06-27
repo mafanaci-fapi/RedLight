@@ -38,7 +38,7 @@ public class Atualiza {
                     System.out.print("Digite o novo nome do aluno: ");
                     aluno.setNome(scanner.nextLine());
                     System.out.print("Digite o novo CPF do aluno : ");
-                    cpf.setCPF(scanner.nextLine());
+                    cpf.setCpf(scanner.nextLine());
                     System.out.print("Digite o novo RG do aluno : ");
                     cpf.setRg(scanner.nextLine());
                     System.out.print("Digite o novo telefone do aluno : ");
