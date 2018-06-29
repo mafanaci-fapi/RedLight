@@ -38,17 +38,17 @@ public class Atualiza {
                     System.out.print("Digite o novo nome do aluno: ");
                     aluno.setNome(scanner.nextLine());
                     System.out.print("Digite o novo CPF do aluno : ");
-                    cpf.setCpf(scanner.nextLine());
+                    aluno.setCpf(scanner.nextLine());
                     System.out.print("Digite o novo RG do aluno : ");
-                    cpf.setRg(scanner.nextLine());
+                    aluno.setRg(scanner.nextLine());
                     System.out.print("Digite o novo telefone do aluno : ");
-                    cpf.setTelefone(scanner.nextLine());
+                    aluno.setTelefone(scanner.nextLine());
                     System.out.print("Digite o novo e-mail do aluno : ");
-                    cpf.setEmail(scanner.nextLine());
+                    aluno.setEmail(scanner.nextLine());
                     System.out.print("Digite o novo endereço do aluno : ");
-                    cpf.setEndereco(scanner.nextLine());
-                    System.out.print("Digite o novo Id do aluno : ");
-                    cpf.setId(scanner.nextLine());
+                    aluno.setEndereco(scanner.nextLine());
+                    System.out.print("Digite o novo id do aluno : ");
+                    aluno.setId(scanner.nextLine());
                                         
                     alunoController.cadastrarAluno(aluno);
 
