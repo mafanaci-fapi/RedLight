@@ -5,7 +5,7 @@ import java.util.Scanner;
 import br.edu.fapi.sga.model.turma.Turma;
 import br.edu.fapi.sga.turma.controller.TurmaController;
 
-public class MenuTurma {
+public class Menu {
 
 	public void menu(TurmaController turmaController) {
 		int opcao = -1;
@@ -15,6 +15,7 @@ public class MenuTurma {
 			System.out.println("3 - Listar sala.");
 			System.out.println("4 - Pesquisar sala.");
 			System.out.println("5 - Excluir sala.");
+			@SuppressWarnings("resource")
 			Scanner scanner = new Scanner(System.in);
 			opcao = scanner.nextInt();
 			
