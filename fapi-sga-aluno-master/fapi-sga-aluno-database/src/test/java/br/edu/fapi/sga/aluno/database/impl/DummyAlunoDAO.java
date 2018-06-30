@@ -7,7 +7,7 @@ import br.edu.fapi.sga.model.aviso.Aviso;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DummyAvisoDAO implements AlunoDAO {
+public class DummyAlunoDAO implements AlunoDAO {
 
     @Override
     public int create(Aluno aluno) {
@@ -60,25 +60,16 @@ public class DummyAvisoDAO implements AlunoDAO {
         return listaAlunos;
     }
 
-    @Override
-    public int update(Aviso aviso) {
-        System.out.println("Data Layer -> Aviso atualizado com sucesso");
-        return 1;
-    }
+	@Override
+	public int update(Aluno aluno) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
-    @Override
-    public int delete(Aviso aviso) {
-        System.out.println("Data Layer -> Aviso apagado com sucesso");
-        return 1;
-    }
-
-    @Override
-    public int update(Aluno aluno) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int delete(Aluno aluno) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+	@Override
+	public int delete(Aluno aluno) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
+   

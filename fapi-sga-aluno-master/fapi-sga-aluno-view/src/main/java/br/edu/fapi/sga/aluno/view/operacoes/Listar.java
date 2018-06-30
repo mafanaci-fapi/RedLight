@@ -16,7 +16,7 @@ public class Listar {
             System.out.println("----------------");
             System.out.println("LISTA DE ALUNOS.");
             System.out.println("----------------");
-            System.out.println(Aluno.getNome());
+            System.out.println(aluno.getNome());
             System.out.println(" --- ");
             System.out.println("");
         }

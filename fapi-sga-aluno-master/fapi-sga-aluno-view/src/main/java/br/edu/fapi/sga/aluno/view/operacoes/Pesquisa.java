@@ -42,7 +42,7 @@ public class Pesquisa {
                     System.out.println("Telefone: "+aluno.getTelefone());
                     System.out.println("Email: "+aluno.getEmail());
                     System.out.println("Endereço: "+aluno.getEndereco());
-                    System.out.println("Id: "+aluno.getId());
+                    System.out.println("Id: "+aluno.getIdAluno());
                     
                     System.out.println("");
                     

@@ -12,9 +12,7 @@
 	<artifactId>fapi-sga-sala-master</artifactId>
 	<packaging>pom</packaging>
 	<modules>
-		<module>fapi-sga-sala-business</module>
 		<module>fapi-sga-sala-controller</module>
-		<module>fapi-sga-sala-database</module>
 		<module>fapi-sga-sala-view</module>
 	</modules>
 
