@@ -1,19 +1,19 @@
-package br.edu.fapi.sga.turma.controller;
+package br.edu.fapi.sga.turma.database;
 
 import java.util.List;
 
 import br.edu.fapi.sga.model.turma.Turma;
 
-public interface TurmaController {
-	
-	int cadastrarTurma(Turma turma);
+public interface TurmaDAO {
+
+	int cadrastarTurma(Turma turma);
 
 	Turma pesquisarTurma(Turma turma);
-	
-	List<Turma> pesquisarListaTurma(Turma turma);
-	
+
+	List<Turma> listarTurma(Turma turma);
+
 	int atualizarTurma(Turma turma);
-	
+
 	int excluirTurma(Turma turma);
 
 }
