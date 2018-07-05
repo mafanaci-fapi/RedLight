@@ -14,6 +14,8 @@
 	<modules>
 		<module>fapi-sga-sala-controller</module>
 		<module>fapi-sga-sala-view</module>
+	 <module>fapi-sga-sala-business</module>
+	 <module>fapi-sga-sala-database</module>
 	</modules>
 
 		<dependencies>
