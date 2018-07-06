@@ -19,8 +19,8 @@ public class DummyAlunoDAO implements AlunoDAO {
         System.out.println("Data Layer -> Aluno pesquisado com sucesso");
         Aluno alunoResultado = new Aluno();
         alunoResultado.setCodigo(1);
-        alunoResultado.setConteudo("Teste Conteudo");
-        alunoResultado.setTitulo("Teste Titulo");
+        alunoResultado.setNome("Teste Nome");
+        alunoResultado.setCpf("Teste CPF");
         return alunoResultado;
     }
 
@@ -30,13 +30,13 @@ public class DummyAlunoDAO implements AlunoDAO {
 
         Aluno alunoResultado1 = new Aluno();
         alunoResultado1.setCodigo(1);
-        alunoResultado1.setConteudo("Teste Conteudo 1");
-        alunoResultado1.setTitulo("Teste Titulo 1");
+        alunoResultado1.setNome("Teste Nome 1");
+        alunoResultado1.setCpf("Teste Cpf 1");
 
         Aluno alunoResultado2 = new Aluno();
         alunoResultado2.setCodigo(1);
-        alunoResultado2.setConteudo("Teste Conteudo 2");
-        alunoResultado2.setTitulo("Teste Titulo 2");
+        alunoResultado2.setNome("Teste Nome 2");
+        alunoResultado2.setCpf("Teste CPF 2");
 
         ArrayList<Aluno> listaAlunos = new ArrayList<>();
         listaAlunos.add(alunoResultado1);
